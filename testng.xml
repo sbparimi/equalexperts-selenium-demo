@@ -1,0 +1,69 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite  name="Hotel booking Test suite">
+    <test name="Create Hotel booking - Positive Test-01">
+        <parameter name="firstNamedata" value="eequalexperts1" />
+        <parameter name="lastNamedata" value="Testing1" />
+        <parameter name="pricedata" value="12345678" />
+        <parameter name="checkIndatedata" value="2021-10-15" />
+        <parameter name="checkOutDatedata" value="2021-10-18" />
+        <classes>
+            <class name="com.equalexperts.tests.CreateaBookingTest"/>
+        </classes>
+    </test>
+    <test name="Create Hotel booking - Positive Test-02">
+        <parameter name="firstNamedata" value="eequalexperts2" />
+        <parameter name="lastNamedata" value="Testing2" />
+        <parameter name="pricedata" value="123" />
+        <parameter name="checkIndatedata" value="2021-11-2" />
+        <parameter name="checkOutDatedata" value="2021-12-01" />
+        <classes>
+            <class name="com.equalexperts.tests.CreateaBookingTest"/>
+        </classes>
+    </test>
+    <test name="Create Hotel booking - Positive Test-03">
+        <parameter name="firstNamedata" value="eequalexperts3" />
+        <parameter name="lastNamedata" value="Testing3" />
+        <parameter name="pricedata" value="123" />
+        <parameter name="checkIndatedata" value="2021-11-2" />
+        <parameter name="checkOutDatedata" value="2021-12-01" />
+        <classes>
+            <class name="com.equalexperts.tests.CreateaBookingTest"/>
+        </classes>
+    </test>
+    <test name="Create Hotel booking - Positive Test-04">
+        <parameter name="firstNamedata" value="eequalexperts4" />
+        <parameter name="lastNamedata" value="Testing4" />
+        <parameter name="pricedata" value="123" />
+        <parameter name="checkIndatedata" value="2021-11-2" />
+        <parameter name="checkOutDatedata" value="2021-12-01" />
+        <classes>
+            <class name="com.equalexperts.tests.CreateaBookingTest"/>
+        </classes>
+    </test>
+    <test name="Create Hotel booking - Positive Test-05">
+        <parameter name="firstNamedata" value="eequalexperts5" />
+        <parameter name="lastNamedata" value="Testing5" />
+        <parameter name="pricedata" value="123" />
+        <parameter name="checkIndatedata" value="2021-11-2" />
+        <parameter name="checkOutDatedata" value="2021-12-01" />
+        <classes>
+            <class name="com.equalexperts.tests.CreateaBookingTest"/>
+        </classes>
+    </test>
+    <test name="Create Hotel booking - Positive Test-06">
+        <parameter name="firstNamedata" value="eequalexperts6" />
+        <parameter name="lastNamedata" value="Testing6" />
+        <parameter name="pricedata" value="123" />
+        <parameter name="checkIndatedata" value="2021-11-2" />
+        <parameter name="checkOutDatedata" value="2021-12-01" />
+        <classes>
+            <class name="com.equalexperts.tests.CreateaBookingTest"/>
+        </classes>
+    </test>
+    <test name="Delete Hotel booking - Positive Test-01">
+
+        <classes>
+            <class name="com.equalexperts.tests.DeleteBookingTest"/>
+        </classes>
+    </test>
+</suite>
